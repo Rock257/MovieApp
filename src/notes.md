@@ -30,3 +30,14 @@
 // myDisplay();
 
 //  OMDb API Key  :  http://www.omdbapi.com/?i=tt3896198&apikey=7290691
+
+<!-- 
+Approach: Our app contains two sections i.e a section for taking the user input and the other for displaying the video. Whenever a user searches for a video, we will store that inside a state variable and whenever a user clicks on the search button we will call a function that will fetch the required video URL and store it in another state variable. Now we have the required URL, we will simply render that video using the ‘ReactPlayer’ component.
+ -->
+
+ <!-- Dependcies : 
+ 
+ 1. npm install movie-trailer 
+ 2. npm install react-player
+
+ -->
